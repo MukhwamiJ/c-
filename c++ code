@@ -1,0 +1,21 @@
+#Include<iostream>
+using namespace std;
+int main()
+{
+//set the correct pin
+int correct pin=0582
+//prompt the user to enter a pin
+cout<< " Enter your pin:";
+int enterpin;
+cin>> enterpin;
+//check if the entered pin is correct
+if(enteredpin==correctpin)
+{
+cout<<"correct pin entered."<<endl;
+}
+else
+{
+cout<<" incorrect pin entered."<<endl;
+}
+return 0;
+}
